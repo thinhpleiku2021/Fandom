@@ -1,14 +1,1353 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
 </head>
+
 <body>
-    <i class="fa-solid fa-fire"></i>
+    <div class="body-web">
+        <div class="global-navigation">
+            <div class="global-navigation__top">
+
+                <ul class="navigation__nav">
+                    <li>
+                        <div><img class="logo" src="image/logo.png" alt=""></div>
+                        <div class="fandom">
+                            FANDOM
+                        </div>
+                    </li>
+                    <li><i class='bx bx-search'></i></li>
+                    <li>
+                        <div class="global-navigation__icon">
+                            <i class='bx bx-dice-4 icon'></i>
+                        </div>
+                        <div class="global-navigation__link-text">
+                            JEUX <br> VIDÉO
+                        </div>
+                    </li>
+                    <li>
+                        <div class="global-navigation__icon">
+                            <i class='bx bx-face icon'></i>
+                        </div>
+                        <div class="global-navigation__link-text">
+                            ANIME
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="global-navigation__icon">
+                            <i class='bx bx-film icon'></i>
+                        </div>
+                        <div class="global-navigation__link-text">
+                            CINÉMA
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="global-navigation__icon">
+                            <i class='bx bx-tv icon'></i>
+                        </div>
+                        <div class="global-navigation__link-text">
+                            TÉLÉVI
+                        </div>
+                    </li>
+                    <li>
+                        <div class="global-navigation__icon">
+                            <i class='bx bxl-youtube icon'></i>
+                        </div>
+                        <div class="global-navigation__link-text">
+                            VIDEO
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="global-navigation__icon">
+                            <i class='bx bx-book-open icon'></i>
+                        </div>
+                        <div class="global-navigation__link-text">
+                            WIKIS
+                        </div>
+                    </li>
+
+                    <li>
+                        <!-- <div class="global-navigation__icon"> -->
+                        <i class='bx bx-crosshair '></i>
+                        <!-- </div> -->
+                        <div class="global-navigation__link-text">
+                            STAR A <br>
+                            WIKI
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="global-navigation__bottom">
+                <i class='bx bx-user-circle'></i>
+            </div>
+        </div>
+
+        <div class="right">
+            <div class="top_leaderboard">
+            </div>
+            <div class="top-wikis-block">
+                <div class="global-navigation-mobile__content-bar">
+                    <div >
+                        <img src="https://static.wikia.nocookie.net/85e470bc-0c8e-41e4-8367-7fdd4bcd05da" alt="">
+                    </div>
+                    <div class="navigation-mobile">
+                        <i class='bx bx-search wds-icon'></i>
+                        <i class='bx bx-user-circle navigation-mobile'></i>
+                    </div>  
+                </div>
+                <div class="feed-header">
+                    <img class="feed-header__logo"
+                        src="https://static.wikia.nocookie.net/6a181c72-e8bf-419b-b4db-18fd56a0eb60">
+                </div>
+                <form class="search-box ">
+                    <div class="search-box__input-search-box">
+                        <label for="">
+                            <input type="search" placeholder="Search">
+                        </label>
+                        <button class="search-submit">
+                            <i class='bx bx-search-alt-2'></i>
+                        </button>
+                    </div>
+                </form>
+                <div class="a-list-feed">
+                    <div class="flex colomn">
+                        <div class="a-list-feed__item-container is-first">
+                            <a href="themagic.html">
+                                <div class="image-wrapper">
+                                    <div class="video bgimg">
+                                        <div class="category-label">
+                                            <div class="category-text">VIDEO</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="title-container">
+                                    <h3>Hogwarts is Explored in New ‘Secrets of Dumbledore’ Footage</h3>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="a-list-feed__item-container">
+                            <a href="">
+                                <div class="image-wrapper">
+                                    <div class="moon-knight bgimg">
+                                        <div class="category-label">
+                                            <div class="category-text">VIDEO</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="title-container">
+                                    <h3>'Moon Knight' Star Oscar Isaac Wanted to be Wolverine</h3>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="a-list-feed__item-container">
+                            <a href="">
+                                <div class="image-wrapper">
+                                    <div class="guide bgimg">
+                                        <div class="category-label">
+                                            <div class="category-text">MOVIES</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="title-container">
+                                    <h3>A Guide To Marvel’s Most Notable Vampires</h3>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="a-list-feed__item-container">
+                            <a href="">
+                                <div class="image-wrapper">
+                                    <div class="master-chife bgimg">
+                                        <div class="category-label">
+                                            <div class="category-text">GAMES</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="title-container">
+                                    <h3>A Day in the Life of Master Chief</h3>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="a-list-feed__item-container">
+                            <a href="">
+                                <div class="image-wrapper">
+                                    <div class="batman bgimg">
+                                        <div class="category-label">
+                                            <div class="category-text">MOVIES</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="title-container">
+                                    <h3>A Real Lawyer Takes Batman to Court</h3>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="a-list-feed__item-container">
+                            <a href="">
+                                <div class="image-wrapper">
+                                    <div class="Almost bgimg">
+                                        <div class="category-label">
+                                            <div class="category-text">MOVIES</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="title-container">
+                                    <h3>Almost Morbius: Nature’s Real-Life Living Vampires</h3>
+                                </div>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class=" top-wikis-block2">
+                    <div class="row bounding-container">
+                        <div class="col top-wiki">
+                            <div class="title-block">
+                                <i class='bx bx-bookmark-minus'></i>
+                                <div class="top-wikis-block__title">TOP WIKIS
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col flex top-wikis-block__item-container">
+                            <ul>
+                                <li class="wiki-category-title">GAMES</li>
+                                <li class="wiki-category-item">Terraria</li>
+                                <li class="wiki-category-item">Minecraft</li>
+                                <li class="wiki-category-item">Genshin Impact</li>
+                            </ul>
+                            <div class="divider"></div>
+                        </div>
+
+                        <div class="col flex top-wikis-block__item-container">
+                            <ul>
+                                <li class="wiki-category-title">MOVIES</li>
+                                <li class="wiki-category-item">Star Wars</li>
+                                <li class="wiki-category-item">Harry Potter</li>
+                                <li class="wiki-category-item">Marvel</li>
+                            </ul>
+                            <div class="divider"></div>
+                        </div>
+
+                        <div class="col flex top-wikis-block__item-container">
+                            <ul>
+                                <li class="wiki-category-title">TV</li>
+                                <li class="wiki-category-item">Memory Alpha</li>
+                                <li class="wiki-category-item">Arrowverse</li>
+                                <li class="wiki-category-item">SpongeBobia</li>
+                            </ul>
+                            <div class="divider"></div>
+                        </div>
+
+                        <div class="col flex top-wikis-block__item-container">
+                            <ul>
+                                <li class="wiki-category-title">ANIME</li>
+                                <li class="wiki-category-item">One Piece</li>
+                                <li class="wiki-category-item">Naruto</li>
+                                <li class="wiki-category-item">My Hero Academia</li>
+                            </ul>
+                            <div class="divider"></div>
+                        </div>
+                        <div class="col flex top-wiki">
+                            <div class="explore-text">
+                                Et plus de <span>250&nbsp;000</span> autres à explorer
+                            </div>
+                            <div class="explore-arrow"><i class='bx bx-right-arrow-alt'></i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="feed-section">
+                    <div class="content-well">
+                        <div class="feed-section__heading">
+                            <h2>Movies</h2>
+                            <a href="">Tout afficher</a>
+                            <i class='bx bxs-right-arrow'></i>
+                        </div>
+                        <div class="feed-section__content">
+                            <div class="feed-popular-wikis">
+                                <div class="popular-wikis-title">
+                                    Pages wiki populaires dans Movies
+                                </div>
+
+                                <div class="popular-wikis-wrapper">
+                                    <div class="popular-wiki-container">
+                                        <div class="image-wrapper">
+                                            <div class="harry bgimg2"></div>
+                                        </div>
+                                        <div class="popular-wiki-container-title">Harry Potter</div>
+                                        <div class="sub-title-container">
+                                            <i class='bx bx-bookmark'></i>
+                                            <div>Harry Potter Wiki</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="popular-wiki-container">
+                                        <div class="image-wrapper">
+                                            <div class="neo bgimg2"></div>
+                                        </div>
+                                        <div class="popular-wiki-container-title">Neo</div>
+                                        <div class="sub-title-container">
+                                            <i class='bx bx-bookmark'></i>
+                                            <div>Matrix Wiki</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="popular-wiki-container">
+                                        <div class="image-wrapper">
+                                            <div class="harley-quinn bgimg2"></div>
+                                        </div>
+                                        <div class="popular-wiki-container-title">Harley Quinn</div>
+                                        <div class="sub-title-container">
+                                            <i class='bx bx-bookmark'></i>
+                                            <div>DC Extended Universe</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="popular-wiki-container">
+                                        <div class="image-wrapper">
+                                            <div class="Snake-Eyes bgimg2"></div>
+                                        </div>
+                                        <div class="popular-wiki-container-title">Snake Eyes</div>
+                                        <div class="sub-title-container">
+                                            <i class='bx bx-bookmark'></i>
+                                            <div>G.I. Joe Wiki</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="popular-wiki-container">
+                                        <div class="image-wrapper">
+                                            <div class="Princesses bgimg2"></div>
+                                        </div>
+                                        <div class="popular-wiki-container-title">Disney Princesses</div>
+                                        <div class="sub-title-container">
+                                            <i class='bx bx-bookmark'></i>
+                                            <div>Disney Wiki</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="popular-wiki-container">
+                                        <div class="image-wrapper">
+                                            <div class="Godzilla bgimg2"></div>
+                                        </div>
+                                        <div class="popular-wiki-container-title">Godzilla</div>
+                                        <div class="sub-title-container">
+                                            <i class='bx bx-bookmark'></i>
+                                            <div>Monster Verse Wiki</div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="colomn-button">
+                                    <div class="hide-max">
+                                        <div class="popular-wiki-container">
+                                            <div class="image-wrapper">
+                                                <div class="harry bgimg2"></div>
+                                            </div>
+                                            <div class="popular-wiki-container-title">Harry Potter</div>
+                                            <div class="sub-title-container">
+                                                <i class='bx bx-bookmark'></i>
+                                                <div>Harry Potter Wiki</div>
+                                            </div>
+                                        </div>
+
+                                        <div class="popular-wiki-container">
+                                            <div class="image-wrapper">
+                                                <div class="neo bgimg2"></div>
+                                            </div>
+                                            <div class="popular-wiki-container-title">Neo</div>
+                                            <div class="sub-title-container">
+                                                <i class='bx bx-bookmark'></i>
+                                                <div>Matrix Wiki</div>
+                                            </div>
+                                        </div>
+
+                                        <div class="popular-wiki-container">
+                                            <div class="image-wrapper">
+                                                <div class="harley-quinn bgimg2"></div>
+                                            </div>
+                                            <div class="popular-wiki-container-title">Harley Quinn</div>
+                                            <div class="sub-title-container">
+                                                <i class='bx bx-bookmark'></i>
+                                                <div>DC Extended Universe</div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="hide-max">
+                                        <div class="popular-wiki-container">
+                                            <div class="image-wrapper">
+                                                <div class="Snake-Eyes bgimg2"></div>
+                                            </div>
+                                            <div class="popular-wiki-container-title">Snake Eyes</div>
+                                            <div class="sub-title-container">
+                                                <i class='bx bx-bookmark'></i>
+                                                <div>G.I. Joe Wiki</div>
+                                            </div>
+                                        </div>
+
+                                        <div class="popular-wiki-container">
+                                            <div class="image-wrapper">
+                                                <div class="Princesses bgimg2"></div>
+                                            </div>
+                                            <div class="popular-wiki-container-title">Disney Princesses</div>
+                                            <div class="sub-title-container">
+                                                <i class='bx bx-bookmark'></i>
+                                                <div>Disney Wiki</div>
+                                            </div>
+                                        </div>
+
+                                        <div class="popular-wiki-container">
+                                            <div class="image-wrapper">
+                                                <div class="Godzilla bgimg2"></div>
+                                            </div>
+                                            <div class="popular-wiki-container-title">Godzilla</div>
+                                            <div class="sub-title-container">
+                                                <i class='bx bx-bookmark'></i>
+                                                <div>Monster Verse Wiki</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="popular-wikis-title">
+                                    Top News Stories in movies
+                                </div>
+                                <div class="popular-wikis-wrapper">
+                                    <div class="newstory-top">
+                                        <img class="feed-card__image"
+                                            src="https://static.wikia.nocookie.net/8e728df2-b4d0-4bb6-bc5f-9d4ec9576785/scale-to-width-down/800">
+
+                                        <div class="feed-card__inner">
+                                            <div class="feed-card__attribution">
+                                                <div class="feed-card__video">
+                                                    Voir la vidéo
+                                                </div>
+                                            </div>
+                                            <div class="title-summary">
+                                                <h2>Hogwarts is Explored in New ‘Secrets of Dumbledore’ Footage</h2>
+                                                <div class="feed-card__summary">
+                                                    EXCLUSIVE: Check out a new behind the scenes video from Fantastic
+                                                    Beasts: The Secrets of Dumbledore, exploring the film's return to
+                                                    Hogwarts.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="newstory-top">
+                                        <img class="feed-card__image"
+                                            src="https://static.wikia.nocookie.net/345e5236-3d82-47ac-9545-6bb672037a01/scale-to-width-down/800">
+
+                                        <div class="feed-card__inner">
+                                            <div class="feed-card__attribution">
+                                                <div class="feed-card__video">
+                                                    Eric Goldman 1d
+                                                </div>
+                                            </div>
+                                            <div class="title-summary">
+                                                <h2>Nicolas Cage is Ready to Unleash the Cage in a New ‘Massive Talent’
+                                                    Poster</h2>
+                                                <div class="feed-card__summary">
+                                                    EXCLUSIVE: Check out the final poster for 'The Unbearable Weight of
+                                                    Massive Talent,' as Nicolas Cage plays himself facing off with a
+                                                    rich superfan.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="popular-wikis-wrapper">
+                                    <div class="newstory-top">
+                                        <img class="feed-card__image"
+                                            src="https://static.wikia.nocookie.net/4daafeac-d88e-422a-87aa-be6841825eae/scale-to-width-down/800">
+
+                                        <div class="feed-card__inner">
+                                            <div class="feed-card__attribution">
+                                                <div class="feed-card__video">
+                                                    TJ Dietsch 5d
+                                                </div>
+                                            </div>
+                                            <div class="title-summary">
+                                                <h2>A Guide To Marvel’s Most Notable Vampires</h2>
+                                                <div class="feed-card__summary">
+                                                    With Morbius and Blade both coming to the big screen, Marvel's next
+                                                    cinematic step looks to be all about bloodsuckers. Here's who else
+                                                    could show up.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="newstory-top">
+                                        <img class="feed-card__image"
+                                            src="https://static.wikia.nocookie.net/ae2538d1-d89e-4503-829c-df690faf5144/scale-to-width-down/800">
+
+                                        <div class="feed-card__inner">
+                                            <div class="feed-card__attribution">
+                                                <div class="feed-card__video">
+                                                    Voir la vidéo
+                                                </div>
+                                            </div>
+                                            <div class="title-summary">
+                                                <h2>‘X’ Puts a Spin on One of the Biggest Tropes in Slasher Films</h2>
+                                                <div class="feed-card__summary">
+                                                    Director Ti West and stars Mia Goth and Brittany Snow on the horror
+                                                    movie 'X' and how it leans into the "sex = death" rule in most
+                                                    slasher films.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="feed-section__ad"></div>
+                    </div>
+                </div>
+
+                <div class="feed-section">
+                    <div class="content-well">
+                        <div class="feed-section__heading">
+                            <h2>GAMES</h2>
+                            <a href="">Tout afficher</a>
+                            <i class='bx bxs-right-arrow'></i>
+                        </div>
+                        <div class="feed-section__content">
+                            <div class="popular-wikis-title">
+                                Pages wiki populaires dans Games
+                            </div>
+                        </div>
+
+                        <div class="colomn-button">
+                            <div class="hide-max">
+                                <div class="popular-wiki-container2">
+                                    <div class="image-wrapper">
+                                        <div class="ellie bgimg2"></div>
+                                    </div>
+                                    <div class="popular-wiki-container-title">Ellie</div>
+                                    <div class="sub-title-container">
+                                        <i class='bx bx-bookmark'></i>
+                                        <div>The Last of Us Wiki</div>
+                                    </div>
+                                </div>
+
+                                <div class="popular-wiki-container2">
+                                    <div class="image-wrapper">
+                                        <div class="lara bgimg2"></div>
+                                    </div>
+                                    <div class="popular-wiki-container-title">Lara Croft</div>
+                                    <div class="sub-title-container">
+                                        <i class='bx bx-bookmark'></i>
+                                        <div>Tomb Raider Wiki</div>
+                                    </div>
+                                </div>
+
+                                <div class="popular-wiki-container2">
+                                    <div class="image-wrapper">
+                                        <div class="nathan bgimg2"></div>
+                                    </div>
+                                    <div class="popular-wiki-container-title">Nathan Drake</div>
+                                    <div class="sub-title-container">
+                                        <i class='bx bx-bookmark'></i>
+                                        <div>Uncharted Wiki</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="hide-max">
+                                <div class="popular-wiki-container2">
+                                    <div class="image-wrapper">
+                                        <div class="link bgimg2"></div>
+                                    </div>
+                                    <div class="popular-wiki-container-title">Link</div>
+                                    <div class="sub-title-container">
+                                        <i class='bx bx-bookmark'></i>
+                                        <div>Zelda Wiki</div>
+                                    </div>
+                                </div>
+
+                                <div class="popular-wiki-container2">
+                                    <div class="image-wrapper">
+                                        <div class="pikachu bgimg2"></div>
+                                    </div>
+                                    <div class="popular-wiki-container-title">Pikachu</div>
+                                    <div class="sub-title-container">
+                                        <i class='bx bx-bookmark'></i>
+                                        <div>Pokemon Wiki</div>
+                                    </div>
+                                </div>
+
+                                <div class="popular-wiki-container2">
+                                    <div class="image-wrapper">
+                                        <div class="rathalos bgimg2"></div>
+                                    </div>
+                                    <div class="popular-wiki-container-title">Rathalos</div>
+                                    <div class="sub-title-container">
+                                        <i class='bx bx-bookmark'></i>
+                                        <div>MMonster Hunter Wiki</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="popular-wikis-wrapper">
+                            <div class="popular-wiki-container2">
+                                <div class="image-wrapper">
+                                    <div class="ellie bgimg2"></div>
+                                </div>
+                                <div class="popular-wiki-container-title">Ellie</div>
+                                <div class="sub-title-container">
+                                    <i class='bx bx-bookmark'></i>
+                                    <div>The Last of Us Wiki</div>
+                                </div>
+                            </div>
+
+                            <div class="popular-wiki-container2">
+                                <div class="image-wrapper">
+                                    <div class="lara bgimg2"></div>
+                                </div>
+                                <div class="popular-wiki-container-title">Lara Croft</div>
+                                <div class="sub-title-container">
+                                    <i class='bx bx-bookmark'></i>
+                                    <div>Tomb Raider Wiki</div>
+                                </div>
+                            </div>
+
+                            <div class="popular-wiki-container2">
+                                <div class="image-wrapper">
+                                    <div class="nathan bgimg2"></div>
+                                </div>
+                                <div class="popular-wiki-container-title">Nathan Drake</div>
+                                <div class="sub-title-container">
+                                    <i class='bx bx-bookmark'></i>
+                                    <div>Uncharted Wiki</div>
+                                </div>
+                            </div>
+
+                            <div class="popular-wiki-container2">
+                                <div class="image-wrapper">
+                                    <div class="link bgimg2"></div>
+                                </div>
+                                <div class="popular-wiki-container-title">Link</div>
+                                <div class="sub-title-container">
+                                    <i class='bx bx-bookmark'></i>
+                                    <div>Zelda Wiki</div>
+                                </div>
+                            </div>
+
+                            <div class="popular-wiki-container2">
+                                <div class="image-wrapper">
+                                    <div class="pikachu bgimg2"></div>
+                                </div>
+                                <div class="popular-wiki-container-title">Pikachu</div>
+                                <div class="sub-title-container">
+                                    <i class='bx bx-bookmark'></i>
+                                    <div>Pokemon Wiki</div>
+                                </div>
+                            </div>
+
+                            <div class="popular-wiki-container2">
+                                <div class="image-wrapper">
+                                    <div class="rathalos bgimg2"></div>
+                                </div>
+                                <div class="popular-wiki-container-title">Rathalos</div>
+                                <div class="sub-title-container">
+                                    <i class='bx bx-bookmark'></i>
+                                    <div>MMonster Hunter Wiki</div>
+                                </div>
+                            </div>
+
+                            <div class="popular-wiki-container2 hide-min">
+                                <div class="image-wrapper">
+                                    <div class="mileena bgimg2"></div>
+                                </div>
+                                <div class="popular-wiki-container-title">Mileena</div>
+                                <div class="sub-title-container">
+                                    <i class='bx bx-bookmark'></i>
+                                    <div>Monster Hunter Wiki</div>
+                                </div>
+                            </div>
+
+                            <div class="popular-wiki-container2 hide-min">
+                                <div class="image-wrapper">
+                                    <div class="miles bgimg2"></div>
+                                </div>
+                                <div class="popular-wiki-container-title">Miles Morales</div>
+                                <div class="sub-title-container">
+                                    <i class='bx bx-bookmark'></i>
+                                    <div>Spider-Man Wiki</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="popular-wikis-title">
+                            Pages wiki populaires dans Movies
+                        </div>
+
+                        <div class="popular-wikis-wrapper2">
+                            <div class="newstory-bottom">
+                                <img class="feed-card__image"
+                                    src="https://static.wikia.nocookie.net/13f0e507-9c6e-4358-bfe9-b18bc5ac3e0d/scale-to-width-down/800">
+
+                                <div class="feed-card__inner">
+                                    <div class="feed-card__attribution">
+                                        <div class="feed-card__video">
+                                            Voir la vidéo
+                                        </div>
+                                    </div>
+                                    <div class="title-summary">
+                                        <h2>Honest Game Trailers | Elden Ring</h2>
+                                        <div class="feed-card__summary">
+                                            The HGT team takes a break from getting their butts kicked in Elden Ring to
+                                            share their thoughts!
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="newstory-bottom">
+                                <img class="feed-card__image"
+                                    src="https://static.wikia.nocookie.net/2cd89c8b-e1db-4fe3-9d3a-21b3178244e1/scale-to-width-down/800">
+
+                                <div class="feed-card__inner">
+                                    <div class="feed-card__attribution">
+                                        <div class="feed-card__video">
+                                            Addison Peacock 5d
+                                        </div>
+                                    </div>
+                                    <div class="title-summary">
+                                        <h2>A Day in the Life of Master Chief</h2>
+                                        <div class="feed-card__summary">
+                                            We're solving the mystery of how the universe's most advanced super-soldier
+                                            spends his day-to-day.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="newstory-bottom">
+                                <img class="feed-card__image"
+                                    src="https://static.wikia.nocookie.net/4939591d-74d0-446c-b6f4-f1c34104d8cd/scale-to-width-down/800">
+
+                                <div class="feed-card__inner">
+                                    <div class="feed-card__attribution">
+                                        <div class="feed-card__video">Miranda Adama Mar 14</div>
+                                    </div>
+                                    <div class="title-summary">
+                                        <h2>Romances We Need <br> in ‘Cyberpunk 2077’</h2>
+                                        <div class="feed-card__summary">
+                                            We're taking a look at the hotties of Night City and finding V's perfect
+                                            match.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="popular-wikis-wrapper2">
+                            <div class="newstory-bottom">
+                                <img class="feed-card__image"
+                                    src="https://static.wikia.nocookie.net/ea5ae281-d6b0-4021-9956-9b48b8996f3a/scale-to-width-down/800">
+
+                                <div class="feed-card__inner">
+                                    <div class="feed-card__attribution">
+                                        <div class="feed-card__video">
+                                            Voir la vidéo
+                                        </div>
+                                    </div>
+                                    <div class="title-summary">
+                                        <h2>Honest Game Trailers | Pokémon Legends: Arceus</h2>
+                                        <div class="feed-card__summary">
+                                            Trailers that tell you the TRUTH about your favorite video games. This week
+                                            is Pokémon Legends: Arceus!
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="newstory-bottom">
+                                <img class="feed-card__image"
+                                    src="https://static.wikia.nocookie.net/b9a26a2b-1388-493d-ad9b-5e5597b6b768/scale-to-width-down/800">
+
+                                <div class="feed-card__inner">
+                                    <div class="feed-card__attribution">
+                                        <div class="feed-card__video">
+                                            Kevin Wright Mar 7
+                                        </div>
+                                    </div>
+                                    <div class="title-summary">
+                                        <h2>Should Kirby Be Eating That?: An Investigation</h2>
+                                        <div class="feed-card__summary">
+                                            Fandom digs into Kirby's diet to see what, if anything, he should be
+                                            swallowing.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="newstory-bottom">
+                                <img class="feed-card__image"
+                                    src="https://static.wikia.nocookie.net/9b17dd71-bee7-4820-abcb-a254c89e3c11/scale-to-width-down/800">
+
+                                <div class="feed-card__inner">
+                                    <div class="feed-card__attribution">
+                                        <div class="feed-card__video">Addison Peacock Feb 28</div>
+                                    </div>
+                                    <div class="title-summary">
+                                        <h2>7 Games to Fill the ‘Lovestruck’ Void</h2>
+                                        <div class="feed-card__summary">
+                                            Though the popular dating sim is now gone, there are plenty more games in
+                                            the sea.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="feed-section">
+                    <div class="content-well">
+                        <div class="feed-section__heading">
+                            <h2>TV</h2>
+                            <a href="">Tout afficher</a>
+                            <i class='bx bxs-right-arrow'></i>
+                        </div>
+                        <div class="feed-section__content">
+                            <div class="popular-wikis-title">
+                                Pages wiki populaires dans TV
+                            </div>
+                        </div>
+                        <div class="colomn-button">
+                            <div class="hide-max">
+                                <div class="popular-wiki-container2">
+                                    <div class="image-wrapper">
+                                        <div class="Grogu bgimg2"></div>
+                                    </div>
+                                    <div class="popular-wiki-container-title">Grogu</div>
+                                    <div class="sub-title-container">
+                                        <i class='bx bx-bookmark'></i>
+                                        <div>Star Wars Wiki</div>
+                                    </div>
+                                </div>
+
+                                <div class="popular-wiki-container2">
+                                    <div class="image-wrapper">
+                                        <div class="lara bgimg2"></div>
+                                    </div>
+                                    <div class="popular-wiki-container-title">Geralt</div>
+                                    <div class="sub-title-container">
+                                        <i class='bx bx-bookmark'></i>
+                                        <div>Witcher Wiki</div>
+                                    </div>
+                                </div>
+
+                                <div class="popular-wiki-container2">
+                                    <div class="image-wrapper">
+                                        <div class="boy bgimg2"></div>
+                                    </div>
+                                    <div class="popular-wiki-container-title">the Boys S3</div>
+                                    <div class="sub-title-container">
+                                        <i class='bx bx-bookmark'></i>
+                                        <div>The Boys Wiki</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="hide-max">
+                                <div class="popular-wiki-container2">
+                                    <div class="image-wrapper">
+                                        <div class="ahsoka bgimg2"></div>
+                                    </div>
+                                    <div class="popular-wiki-container-title">Ahsoka Tano</div>
+                                    <div class="sub-title-container">
+                                        <i class='bx bx-bookmark'></i>
+                                        <div>Star Wars Wiki</div>
+                                    </div>
+                                </div>
+
+                                <div class="popular-wiki-container2">
+                                    <div class="image-wrapper">
+                                        <div class="zuko bgimg2"></div>
+                                    </div>
+                                    <div class="popular-wiki-container-title">Zuko(ATla)</div>
+                                    <div class="sub-title-container">
+                                        <i class='bx bx-bookmark'></i>
+                                        <div>Avatar Wiki</div>
+                                    </div>
+                                </div>
+
+                                <div class="popular-wiki-container2">
+                                    <div class="image-wrapper">
+                                        <div class="starfire bgimg2"></div>
+                                    </div>
+                                    <div class="popular-wiki-container-title">Starfire</div>
+                                    <div class="sub-title-container">
+                                        <i class='bx bx-bookmark'></i>
+                                        <div>Titans Wiki</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="popular-wikis-wrapper">
+                            <div class="popular-wiki-container2">
+                                <div class="image-wrapper">
+                                    <div class="Grogu bgimg2"></div>
+                                </div>
+                                <div class="popular-wiki-container-title">Grogu</div>
+                                <div class="sub-title-container">
+                                    <i class='bx bx-bookmark'></i>
+                                    <div>Star Wars Wiki</div>
+                                </div>
+                            </div>
+
+                            <div class="popular-wiki-container2">
+                                <div class="image-wrapper">
+                                    <div class="lara bgimg2"></div>
+                                </div>
+                                <div class="popular-wiki-container-title">Geralt</div>
+                                <div class="sub-title-container">
+                                    <i class='bx bx-bookmark'></i>
+                                    <div>Witcher Wiki</div>
+                                </div>
+                            </div>
+
+                            <div class="popular-wiki-container2">
+                                <div class="image-wrapper">
+                                    <div class="boy bgimg2"></div>
+                                </div>
+                                <div class="popular-wiki-container-title">the Boys S3</div>
+                                <div class="sub-title-container">
+                                    <i class='bx bx-bookmark'></i>
+                                    <div>The Boys Wiki</div>
+                                </div>
+                            </div>
+
+                            <div class="popular-wiki-container2">
+                                <div class="image-wrapper">
+                                    <div class="ahsoka bgimg2"></div>
+                                </div>
+                                <div class="popular-wiki-container-title">Ahsoka Tano</div>
+                                <div class="sub-title-container">
+                                    <i class='bx bx-bookmark'></i>
+                                    <div>Star Wars Wiki</div>
+                                </div>
+                            </div>
+
+                            <div class="popular-wiki-container2">
+                                <div class="image-wrapper">
+                                    <div class="zuko bgimg2"></div>
+                                </div>
+                                <div class="popular-wiki-container-title">Zuko(ATla)</div>
+                                <div class="sub-title-container">
+                                    <i class='bx bx-bookmark'></i>
+                                    <div>Avatar Wiki</div>
+                                </div>
+                            </div>
+
+                            <div class="popular-wiki-container2">
+                                <div class="image-wrapper">
+                                    <div class="starfire bgimg2"></div>
+                                </div>
+                                <div class="popular-wiki-container-title">Starfire</div>
+                                <div class="sub-title-container">
+                                    <i class='bx bx-bookmark'></i>
+                                    <div>Titans Wiki</div>
+                                </div>
+                            </div>
+
+                            <div class="popular-wiki-container2">
+                                <div class="image-wrapper">
+                                    <div class="education bgimg2"></div>
+                                </div>
+                                <div class="popular-wiki-container-title">Sex Education S3</div>
+                                <div class="sub-title-container">
+                                    <i class='bx bx-bookmark'></i>
+                                    <div>Sex Education Wiki</div>
+                                </div>
+                            </div>
+
+                            <div class="popular-wiki-container2">
+                                <div class="image-wrapper">
+                                    <div class="spongebob bgimg2"></div>
+                                </div>
+                                <div class="popular-wiki-container-title">SpongeBob</div>
+                                <div class="sub-title-container">
+                                    <i class='bx bx-bookmark'></i>
+                                    <div>SpongeBob Wiki</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="popular-wikis-title">
+                            Top News Stories in tv
+                        </div>
+
+                        <div class="popular-wikis-wrapper2">
+                            <div class="newstory-bottom">
+                                <img class="feed-card__image"
+                                    src="https://static.wikia.nocookie.net/e45c7969-b57d-4f58-be7d-d5b093730241/scale-to-width-down/800">
+
+                                <div class="feed-card__inner">
+                                    <div class="feed-card__attribution">
+                                        <div class="feed-card__video">
+                                            Voir la vidéo
+                                        </div>
+                                    </div>
+                                    <div class="title-summary">
+                                        <h2>'Moon Knight' Star Oscar Isaac Wanted to be Wolverine</h2>
+                                        <div class="feed-card__summary">
+                                            Isaac and co-star Ethan Hawke discuss superheroes they wanted to play
+                                            growing up and being tapped to join the MCU before Moon Knight snared them.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="newstory-bottom">
+                                <img class="feed-card__image"
+                                    src="https://static.wikia.nocookie.net/9b2c1dad-5d2a-4a94-a634-60f8510350c4/scale-to-width-down/800">
+
+                                <div class="feed-card__inner">
+                                    <div class="feed-card__attribution">
+                                        <div class="feed-card__video">
+                                            Eric Goldman Mar 17
+                                        </div>
+                                    </div>
+                                    <div class="title-summary">
+                                        <h2>Elvira on What It’s Like Getting an Action Figure of Herself</h2>
+                                        <div class="feed-card__summary">
+                                            The woman behind Elvira, Mistress of the Dark, Cassandra Peterson, on career
+                                            longevity, working with wrestlers, and loving her new action figure.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="newstory-bottom">
+                                <img class="feed-card__image"
+                                    src="https://static.wikia.nocookie.net/a7c9f9ea-9cdb-4c70-9b03-a0596864a685/scale-to-width-down/800">
+
+                                <div class="feed-card__inner">
+                                    <div class="feed-card__attribution">
+                                        <div class="feed-card__video">Faith Meyers Mar 9</div>
+                                    </div>
+                                    <div class="title-summary">
+                                        <h2>5 Anime Series You Can Now Watch on Crunchyroll!</h2>
+                                        <div class="feed-card__summary">
+                                            Funimation's anime streaming library is moving to Crunchyroll, so we've got
+                                            five new-to-Crunchyroll series for you to check out now!
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="popular-wikis-wrapper2">
+                            <div class="newstory-bottom">
+                                <img class="feed-card__image"
+                                    src="https://static.wikia.nocookie.net/48b2fdb8-9b73-427a-85c2-b05477134cd2/scale-to-width-down/800">
+
+                                <div class="feed-card__inner">
+                                    <div class="feed-card__attribution">
+                                        <div class="feed-card__video">
+                                            Eric Goldman fed 18
+                                        </div>
+                                    </div>
+                                    <div class="title-summary">
+                                        <h2>Peacemaker: John Cena on Why He's Grateful for That Big Finale Cameo</h2>
+                                        <div class="feed-card__summary">
+                                            With 'Peacemaker' Season 1 wrapped up, John Cena talks to us about Chris'
+                                            big choice, why Vigilante rules, and why he's up for anything in Season 2.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="newstory-bottom">
+                                <img class="feed-card__image"
+                                    src="https://static.wikia.nocookie.net/2dd7e17d-e6ba-44e7-8f40-d4598f64a4b7/scale-to-width-down/800">
+
+                                <div class="feed-card__inner">
+                                    <div class="feed-card__attribution">
+                                        <div class="feed-card__video">
+                                            Eric Goldman fed 17
+                                        </div>
+                                    </div>
+                                    <div class="title-summary">
+                                        <h2>Everything We Know About Boba Fett and Cad Bane’s History</h2>
+                                        <div class="feed-card__summary">
+                                            How well did Boba Fett and Cad Bane know each other prior to 'The Book of
+                                            Boba Fett'? Unfinished episodes from 'The Clone Wars' may give us key info.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="newstory-bottom">
+                                <img class="feed-card__image"
+                                    src="https://static.wikia.nocookie.net/3aded0bf-7c92-4ebf-bf10-6c05cd2182bb/scale-to-width-down/800">
+
+                                <div class="feed-card__inner">
+                                    <div class="feed-card__attribution">
+                                        <div class="feed-card__video">Voir la vidéo</div>
+                                    </div>
+                                    <div class="title-summary">
+                                        <h2>‘The Legend of Vox Machina’ Drinking Game</h2>
+                                        <div class="feed-card__summary">
+                                            Gather your adventuring party and conjure up Prime Video for 'The Legend of
+                                            Vox Machina' watch along drinking game!
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bottom-Warpper">
+                <form class="search-box ">
+                    <div class="search-box__input-search-box">
+                        <label for="">
+                            <input type="search" placeholder="Search the world's largest fan wiki platform">
+                        </label>
+                        <button class="search-submit">
+                            <i class='bx bx-search-alt-2'></i>
+                        </button>
+                    </div>
+                </form>
+                <div class="bg">
+                    <div class="newsletter">
+                        <div class="newsletter__info">
+                            <div class="newsletter__heading">
+                                Les dernières tendances, directement dans votre boîte de réception.
+                            </div>
+                            <div class="newsletter_small_heading">Quelles sont les nouvelles ? - Inscription à la
+                                newsletter de <br> Fandom</div>
+                            <input class="mail" type="email" placeholder="Adresse e-mail">
+                            <button type="button" class="btn btn-warning">Créer un compte</button>
+                        </div>
+
+                        <div class="newsletter__graphic">
+                            <img src="https://static.wikia.nocookie.net/f986bbe3-d988-415a-be90-95912d7a7bdc" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer>
+                <div class="footer__main">
+                    <div class="footer__column">
+                        <div class="fandom-og"><img
+                                src="https://static.wikia.nocookie.net/6a181c72-e8bf-419b-b4db-18fd56a0eb60" alt="">
+                        </div>
+                        <section>
+                            <ul>
+                                <li class="section-foot">EXPLORE PROPERTIES</li>
+                                <li class="footer__link"><a href="">Fandom</a></li>
+                                <li class="footer__link"><a href="">D&D Beyond</a></li>
+                                <li class="footer__link"><a href="">Cortex RPG</a></li>
+                                <li class="footer__link"><a href="">Muthead</a></li>
+                                <li class="footer__link"><a href="">Futhead</a></li>
+                                <li class="footer__link"><a href="">Fanatical</a></li>
+                            </ul>
+                        </section>
+                    </div>
+
+                    <div class="footer__column-mobie">
+                        <div class="fandom-og"><img
+                                src="https://static.wikia.nocookie.net/6a181c72-e8bf-419b-b4db-18fd56a0eb60" alt="">
+                        </div>
+                        <p class="section-foot">EXPLORE PROPERTIES</p>
+                        <section>
+                            <ul>
+
+                                <li class="footer__link-mobie"><a href="">Fandom</a></li>
+                                <li class="footer__link-mobie"><a href="">D&D Beyond</a></li>
+                                <li class="footer__link-mobie"><a href="">Cortex RPG</a></li>
+                            </ul>
+
+                            <ul>
+                                <li class="footer__link-mobie"><a href="">Muthead</a></li>
+                                <li class="footer__link-mobie"><a href="">Futhead</a></li>
+                                <li class="footer__link-mobie"><a href="">Fanatical</a></li>
+                            </ul>
+                        </section>
+                    </div>
+
+                    <div class="footer__column">
+                        <ul>
+                            <li class="section-foot">OVERVIEW</li>
+                            <li class="footer__link"><a href="">What is Fandom?</a></li>
+                            <li class="footer__link"><a href="">About</a></li>
+                            <li class="footer__link"><a href="">Careers</a></li>
+                            <li class="footer__link"><a href="">Press</a></li>
+                            <li class="footer__link"><a href="">Contact</a></li>
+                            <li class="footer__link"><a href="">Terms of Use</a></li>
+                            <li class="footer__link"><a href="">Privacy Policy</a></li>
+                            <li class="footer__link"><a href="">Global Sitemap</a></li>
+                            <li class="footer__link"><a href="">Local Sitemap</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer__column-mobie">
+                        <p class="section-foot">OVERVIEW</p>
+                        <section>
+                            <ul>
+                                <li class="footer__link-mobie"><a href="">What is Fandom?</a></li>
+                                <li class="footer__link-mobie"><a href="">About</a></li>
+                                <li class="footer__link-mobie"><a href="">Careers</a></li>
+                                <li class="footer__link-mobie"><a href="">Press</a></li>
+                                <li class="footer__link-mobie"><a href="">Contact</a></li>
+                            </ul>
+                            <ul>
+                                <li class="footer__link-mobie"><a href="">Terms of Use</a></li>
+                                <li class="footer__link-mobie"><a href="">Privacy Policy</a></li>
+                                <li class="footer__link-mobie"><a href="">Global Sitemap</a></li>
+                                <li class="footer__link-mobie"><a href="">Local Sitemap</a></li>
+                            </ul>
+                        </section>
+                    </div>
+
+                    <div class="footer__column-mobie">
+                        <p class="section-foot">COMMUNITY</p>
+                        <section>
+                            <ul>
+                                <li class="footer__link-mobie"><a href="">Community Central</a></li>
+                                <li class="footer__link-mobie"><a href="">Support</a></li>
+                            </ul>
+                            <ul>
+                                <li class="footer__link-mobie"><a href="">Help</a></li>
+                                <li class="footer__link-mobie"><a href="">Do Not Sell My Info</a></li>
+                            </ul>
+                        </section>
+                    </div>
+
+                    <div class="footer__column-mobie">
+                        <p class="section-foot">ADVERTISE</p>
+                        <section>
+                            <ul>
+                                <li class="footer__link-mobie"><a href="">Media Kit</a></li>
+                                <li class="footer__link-mobie"><a href="">Fandomatic</a></li>
+                            </ul>
+                            <ul>
+                                <li class="footer__link-mobie"><a href="">Contact</a></li>
+                            </ul>
+                        </section>
+                    </div>
+
+                    <div class="footer__column-mobie">
+                        <p class="section-foot">FOLLOW US</p>
+                        <div class="flex">
+                            <i class='bx bxl-facebook in'></i>
+                            <i class='bx bxl-twitter in'></i>
+                            <i class='bx bxl-youtube in'></i>
+                            <i class='bx bxl-instagram in'></i>
+                            <p class="in">in</p>
+                        </div>
+                    </div>
+                    <div class="footer__column">
+                        <ul class="on">
+                            <li class="section-foot">COMMUNITY</li>
+                            <li class="footer__link"><a href="">Community Central</a></li>
+                            <li class="footer__link"><a href="">Support</a></li>
+                            <li class="footer__link"><a href="">Help</a></li>
+                            <li class="footer__link"><a href="">Do Not Sell My Info</a></li>
+                        </ul>
+                        <ul class="on">
+                            <li class="section-foot">ADVERTISE</li>
+                            <li class="footer__link"><a href="">Media Kit</a></li>
+                            <li class="footer__link"><a href="">Fandomatic</a></li>
+                            <li class="footer__link"><a href="">Contact</a></li>
+                        </ul>
+                        <div>
+                            <div class="section-foot">FOLLOW US</div>
+                            <div class="icon2">
+                                <i class='bx bxl-facebook in'></i>
+                                <i class='bx bxl-twitter in'></i>
+                                <i class='bx bxl-youtube in'></i>
+                                <i class='bx bxl-instagram in'></i>
+                                <p class="in">in</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer__column">
+                        <div class="section-foot">FANDOM APPS</div>
+                        <p class="app">Take your favorite fandoms with you and never miss a beat.</p>
+                        <section class="fandom-stores">
+                            <div class="footer__image">
+                                <img src="https://static.wikia.nocookie.net/1fcd9eb5-31ba-42aa-bc10-4a8c6332d69b">
+                            </div>
+                            <div class="operating-system">
+                                <img class="img-on" src="image/App_Store.png" alt="">
+                                <img src="image/android.jpg" alt="">
+                            </div>
+                        </section>
+                        <div class="line"></div>
+                        <section class="fandom-stores2">
+                            <div class="footer__image">
+                                <img src="image/Capture.PNG" alt="">
+                            </div>
+                            <div class="operating-system">
+                                <img class="img-on" src="image/App_Store.png" alt="">
+                                <img src="image/android.jpg" alt="">
+                            </div>
+                        </section>
+                    </div>
+
+                    <div class="wds-global-footer__column">
+                        <div class="section-foot">FANDOM APPS</div>
+                        <p class="app">Take your favorite fandoms with you and never miss a beat.</p>
+                        <section class="fandom-stores">
+                            <div class="footer__image">
+                                <img src="https://static.wikia.nocookie.net/1fcd9eb5-31ba-42aa-bc10-4a8c6332d69b">
+                            </div>
+                            <div class="operating-system">
+                                <img class="img-on" src="image/App_Store.png" alt="">
+                                <img src="image/android.jpg" alt="">
+                            </div>
+                        </section>
+                        <div class="line"></div>
+                        <section class="fandom-stores2">
+                            <div class="footer__image">
+                                <img src="image/Capture.PNG" alt="">
+                            </div>
+                            <div class="operating-system">
+                                <img class="img-on" src="image/App_Store.png" alt="">
+                                <img src="image/android.jpg" alt="">
+                            </div>
+                        </section>
+                    </div>
+                </div>
+                <div class="bottom-bar">
+                    <div class="wds-has-padding">Copyright 2022 Fandom, Inc.</div>
+                </div>
+            </footer>
+        </div>
+    </div>
 </body>
+
 </html>
